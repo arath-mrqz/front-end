@@ -5,14 +5,19 @@ h2{
     color: #46484c;
 }
 p{
-    color: #8b8b8bcc;
+    color: blueviolet;
 }
 button{
     color: #fff;
 }
 body{
-    background-color: #fffbf7;
+    background-color: #8b8b8bcc;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 button{
     background-color: #025157;
+    color: aqua;
+}
+form{
+    color: brown;
 }
