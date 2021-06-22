@@ -12,8 +12,8 @@ button{
     color: #fff;
 }
 body{
-    background-color: rgb(168, 93, 93);
-    
+    background-color: rgb(255, 255, 255);
+
 }
 button{
     background-color: #025157;
@@ -32,6 +32,15 @@ li{
     margin-left: 25px;
     color: #025157;
 }
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+}
+
 .header > *{
     display: inline-block;
     font-size: 16px;
@@ -69,3 +78,29 @@ li{
     padding: 12px 14px 12px 14px;
     border-radius: 5px;
 }
+img{
+    display: block;
+}
+
+.promo {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+  }
+
+.video-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-container img{
+    width: 120px;
+    padding-top: 20px;
+}
+
+.texto-promo{
+    padding-left: 20px;
+}
+
