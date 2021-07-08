@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   background-color: white;
   margin: 0.0001px;
@@ -24,6 +25,7 @@ button {
 }
 
 main {
+  display: none;
   margin-top: 285px;
   text-align: center;
 }
@@ -57,12 +59,6 @@ li {
   height: 100%;
 }
 
-.navbar {
-  width: 70%;
-  text-align: center;
-  color: #025157;
-}
-
 .menu-item {
   display: inline;
   margin-right: 25px;
@@ -93,6 +89,15 @@ li {
   padding-bottom: 12px;
   border: 0;
   border-radius: 5px;
+}
+
+.buttons_bootstrap {
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+}
+.buttons_bootstrap button {
+  background-color: #025157;
 }
 
 .promo {
@@ -251,6 +256,11 @@ li {
   flex-direction: column;
   justify-content: space-between;
   padding: 0 45px;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .wrapper article img {
   width: 100%;
@@ -277,4 +287,49 @@ li {
   text-decoration: none;
   color: #8fc96d;
   font-size: 15px;
-}/*# sourceMappingURL=main.css.map */
+}
+
+.formulario {
+  padding: 10%;
+}
+
+.slidess {
+  padding: 100px 20%;
+}
+
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+  main {
+    margin-top: 100px;
+  }
+  main h1 {
+    font-size: 30px;
+  }
+
+  .publish form {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 2px 20%;
+    align-items: center;
+    text-align: left;
+    font-size: small;
+  }
+  .publish form button {
+    width: 50px;
+    text-align: center;
+  }
+
+  .cards {
+    display: grid;
+    grid-template: repeat(4, 1fr)/1fr;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .cards li .right {
+    display: none;
+  }
+}
+/** dispositivos pequeños en vista landscape (horizontal) */
+/** dispositivos medianos (tablets) */
+/** dispositivos grandes (desktops) */
+/** dispositivos extra grandes (monitores grandes, tvs) *//*# sourceMappingURL=main.css.map */

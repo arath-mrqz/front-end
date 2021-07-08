@@ -1,0 +1,19 @@
+{
+  "name": "front",
+  "version": "1.0.0",
+  "description": "proyecto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arath-mrqz/front-end.git"
+  },
+  "author": "arath-mrqz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arath-mrqz/front-end/issues"
+  },
+  "homepage": "https://github.com/arath-mrqz/front-end#readme"
+}
